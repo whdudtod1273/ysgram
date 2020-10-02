@@ -102,3 +102,17 @@ dist
 
 # TernJS port file
 .tern-port
+
+
+# prisma 
+# 필수
+generated
+prisma.yml
+
+# 권장
+# package
+yarn.lock
+package-lock.json
+# cache files
+.DS_Store
+thumbs.db
